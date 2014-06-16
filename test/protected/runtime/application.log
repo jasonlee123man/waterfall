@@ -1,0 +1,1633 @@
+2014/05/07 03:59:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=gii
+---
+2014/05/07 03:59:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=gii
+---
+2014/05/07 04:04:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/upload".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/upload')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/upload
+---
+2014/05/07 04:26:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/upload".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/upload')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=image/upload
+HTTP_REFERER=http://localhost/yii/test/index.php?r=site/login
+---
+2014/05/07 04:26:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/upload".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/upload')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=image/upload
+HTTP_REFERER=http://localhost/yii/test/index.php?r=site/login
+---
+2014/05/07 04:28:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/upload".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/upload')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=image/upload
+HTTP_REFERER=http://localhost/yii/test/index.php?r=site/login
+---
+2014/05/08 05:09:29 [warning] [application] Failed to set unsafe attribute "pic" of "Pictures".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (74)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/08 05:13:48 [warning] [application] Failed to set unsafe attribute "pic" of "Pictures".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (74)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/08 05:13:48 [error] [php] move_uploaded_file(): The second argument to copy() function cannot be a directory (D:\xampp\htdocs\yii\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PicturesController->actionCreate()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PicturesController->runAction()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PicturesController->filterAccessControl()
+#6 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(265): PicturesController->runActionWithFilters()
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PicturesController->run()
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/pictures/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (77)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/08 05:14:32 [warning] [application] Failed to set unsafe attribute "pic" of "Pictures".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (74)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/08 05:14:32 [error] [php] move_uploaded_file(): The second argument to copy() function cannot be a directory (D:\xampp\htdocs\yii\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PicturesController->actionCreate()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PicturesController->runAction()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PicturesController->filterAccessControl()
+#6 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(265): PicturesController->runActionWithFilters()
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PicturesController->run()
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/pictures/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (77)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/08 05:16:08 [warning] [application] Failed to set unsafe attribute "pic" of "Pictures".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (74)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/08 05:16:37 [warning] [application] Failed to set unsafe attribute "pic" of "Pictures".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (74)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/08 05:18:49 [warning] [application] Failed to set unsafe attribute "pic" of "Pictures".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (74)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/08 05:18:49 [error] [php] move_uploaded_file(): The second argument to copy() function cannot be a directory (D:\xampp\htdocs\yii\framework\web\CUploadedFile.php:199)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PicturesController->actionCreate()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PicturesController->runAction()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PicturesController->filterAccessControl()
+#6 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(265): PicturesController->runActionWithFilters()
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PicturesController->run()
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/pictures/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (77)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/08 05:23:48 [warning] [application] Failed to set unsafe attribute "pic" of "Pictures".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (74)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/08 05:24:05 [warning] [application] Failed to set unsafe attribute "pic" of "Pictures".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (74)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/08 05:24:22 [warning] [application] Failed to set unsafe attribute "pic" of "Pictures".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (74)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/08 05:25:06 [warning] [application] Failed to set unsafe attribute "pic" of "Pictures".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (101)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/08 05:32:26 [warning] [application] Failed to set unsafe attribute "pic" of "Pictures".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (101)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/08 05:32:40 [warning] [application] Failed to set unsafe attribute "pic" of "Pictures".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (101)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/08 05:32:55 [warning] [application] Failed to set unsafe attribute "pic" of "Pictures".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PicturesController.php (101)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 05:16:40 [error] [php] Undefined variable: form (D:\xampp\htdocs\yii\test\protected\views\admin\photo\_form.php:19)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(869): PhotoController->renderFile()
+#1 D:\xampp\htdocs\yii\test\protected\views\admin\photo\create.php(18): PhotoController->renderPartial()
+#2 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#3 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): PhotoController->renderInternal()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(869): PhotoController->renderFile()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(782): PhotoController->renderPartial()
+#6 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(123): PhotoController->render()
+#7 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#10 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#13 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#16 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#17 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\views\admin\photo\_form.php (19)
+in D:\xampp\htdocs\yii\test\protected\views\admin\photo\create.php (18)
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (123)
+2014/05/12 05:17:29 [error] [php] Undefined variable: form (D:\xampp\htdocs\yii\test\protected\views\admin\photo\_form.php:19)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(869): PhotoController->renderFile()
+#1 D:\xampp\htdocs\yii\test\protected\views\admin\photo\create.php(18): PhotoController->renderPartial()
+#2 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#3 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): PhotoController->renderInternal()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(869): PhotoController->renderFile()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(782): PhotoController->renderPartial()
+#6 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(123): PhotoController->render()
+#7 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#10 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#13 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#16 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#17 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\views\admin\photo\_form.php (19)
+in D:\xampp\htdocs\yii\test\protected\views\admin\photo\create.php (18)
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (123)
+2014/05/12 05:17:50 [error] [php] Undefined variable: form (D:\xampp\htdocs\yii\test\protected\views\admin\photo\_form.php:22)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(869): PhotoController->renderFile()
+#1 D:\xampp\htdocs\yii\test\protected\views\admin\photo\create.php(18): PhotoController->renderPartial()
+#2 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#3 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): PhotoController->renderInternal()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(869): PhotoController->renderFile()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(782): PhotoController->renderPartial()
+#6 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(123): PhotoController->render()
+#7 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#10 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#13 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#16 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#17 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\views\admin\photo\_form.php (22)
+in D:\xampp\htdocs\yii\test\protected\views\admin\photo\create.php (18)
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (123)
+2014/05/12 05:24:05 [error] [php] Undefined variable: form (D:\xampp\htdocs\yii\test\protected\views\admin\photo\_form.php:19)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(869): PhotoController->renderFile()
+#1 D:\xampp\htdocs\yii\test\protected\views\admin\photo\create.php(18): PhotoController->renderPartial()
+#2 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#3 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): PhotoController->renderInternal()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(869): PhotoController->renderFile()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(782): PhotoController->renderPartial()
+#6 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(123): PhotoController->render()
+#7 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#10 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#13 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#16 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#17 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\views\admin\photo\_form.php (19)
+in D:\xampp\htdocs\yii\test\protected\views\admin\photo\create.php (18)
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (123)
+2014/05/12 05:25:46 [error] [exception.CException] exception 'CException' with message 'CMultiFileUpload and its behaviors do not have a method or closure named "errorSummary".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\views\admin\photo\_form.php(19): CComponent->__call('errorSummary', Array)
+#1 D:\xampp\htdocs\yii\test\protected\views\admin\photo\_form.php(19): CMultiFileUpload->errorSummary(Object(Photo))
+#2 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yii\test\protected\views\admin\photo\create.php(18): CController->renderPartial('_form', Array)
+#6 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#7 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(123): CController->render('create', Array)
+#11 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#12 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#21 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#22 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo
+---
+2014/05/12 05:26:00 [error] [exception.CException] exception 'CException' with message 'CMultiFileUpload and its behaviors do not have a method or closure named "labelEx".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\views\admin\photo\_form.php(21): CComponent->__call('labelEx', Array)
+#1 D:\xampp\htdocs\yii\test\protected\views\admin\photo\_form.php(21): CMultiFileUpload->labelEx(Object(Photo), 'filename')
+#2 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yii\test\protected\views\admin\photo\create.php(18): CController->renderPartial('_form', Array)
+#6 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#7 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(123): CController->render('create', Array)
+#11 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#12 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#21 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#22 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo
+---
+2014/05/12 05:26:15 [error] [exception.CException] exception 'CException' with message 'CMultiFileUpload and its behaviors do not have a method or closure named "textField".' in D:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\views\admin\photo\_form.php(22): CComponent->__call('textField', Array)
+#1 D:\xampp\htdocs\yii\test\protected\views\admin\photo\_form.php(22): CMultiFileUpload->textField(Object(Photo), 'filename', Array)
+#2 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yii\test\protected\views\admin\photo\create.php(18): CController->renderPartial('_form', Array)
+#6 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#7 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(123): CController->render('create', Array)
+#11 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#12 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#21 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#22 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo
+---
+2014/05/12 05:41:51 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 05:44:05 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 05:44:57 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 07:47:43 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 07:48:42 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (141)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 07:51:34 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 07:52:32 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (143)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 07:53:03 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 07:57:18 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 07:58:22 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (143)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 07:58:46 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 07:59:43 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (143)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:00:02 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (143)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:03:01 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:03:10 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:04:07 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (143)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:04:27 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:34:19 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (143)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:35:28 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:36:49 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (143)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:40:15 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:41:03 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (143)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:41:59 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:43:36 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:48:45 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (140)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:49:30 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:50:00 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:55:02 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 08:55:46 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:01:45 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (93)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:26:19 [error] [php] Undefined variable: model (D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php:84)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (84)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:26:42 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (91)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:28:40 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (90)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:29:00 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (90)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:29:40 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (90)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:32:15 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (90)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:32:29 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (90)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:32:30 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (90)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:32:44 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (90)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:40:38 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (90)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:40:48 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (90)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:40:55 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (90)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:42:22 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (90)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:43:44 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (90)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:43:44 [error] [php] strlen() expects parameter 1 to be string, array given (D:\xampp\htdocs\yii\framework\web\CUploadedFile.php:103)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#6 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (91)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:44:28 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (90)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 09:44:33 [warning] [application] Failed to set unsafe attribute "photos" of "Photo".
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (90)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 10:06:53 [error] [php] move_uploaded_file(D:\xampp\htdocs\yii\test\protected/images/upload/9377-0.gif): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#6 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (80)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 10:07:27 [error] [php] move_uploaded_file(/yii/test/images/upload/9962-0.gif): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#6 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (80)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 10:08:14 [error] [php] move_uploaded_file(/yii/test/images/upload/4658-0.gif): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#6 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (80)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 10:08:26 [error] [php] move_uploaded_file(D:\xampp\htdocs\yii\test\protected/images/upload/7448-0.gif): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#6 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (80)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 10:08:45 [error] [php] move_uploaded_file(D:\xampp\htdocs\yii\test\protected../images/upload/6194-0.gif): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#6 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (80)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 10:13:54 [error] [exception.CException] exception 'CException' with message 'Property "Photo.image" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('image')
+#1 D:\xampp\htdocs\yii\test\protected\views\admin\photo\_form.php(40): CActiveRecord->__get('image')
+#2 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yii\test\protected\views\admin\photo\update.php(21): CController->renderPartial('_form', Array)
+#6 D:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#7 D:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#10 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(110): CController->render('update', Array)
+#11 [internal function]: PhotoController->actionUpdate('27')
+#12 D:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PhotoController), Array)
+#13 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PhotoController), Object(ReflectionMethod), Array)
+#14 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#23 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/upd...')
+#24 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/update&id=27
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/admin
+---
+2014/05/12 10:57:10 [error] [exception.CException] exception 'CException' with message 'Property "CUploadedFile.filename" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(85): CComponent->__get('filename')
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/create
+---
+2014/05/12 10:58:51 [error] [exception.CException] exception 'CException' with message 'Property "CUploadedFile.filename" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(81): CComponent->__get('filename')
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/create
+---
+2014/05/12 10:59:09 [error] [exception.CException] exception 'CException' with message 'Property "CUploadedFile.id" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(81): CComponent->__get('id')
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/create
+---
+2014/05/12 11:00:25 [error] [exception.CException] exception 'CException' with message 'Property "CUploadedFile.filename" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(81): CComponent->__get('filename')
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/create
+---
+2014/05/12 11:00:39 [error] [exception.CException] exception 'CException' with message 'Property "CUploadedFile.filename" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(81): CComponent->__get('filename')
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/create
+---
+2014/05/12 11:01:16 [error] [exception.CException] exception 'CException' with message 'Property "CUploadedFile.filename" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(81): CComponent->__get('filename')
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/create
+---
+2014/05/12 11:03:15 [error] [exception.CException] exception 'CException' with message 'Property "CUploadedFile.filename" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(81): CComponent->__get('filename')
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/create
+---
+2014/05/12 11:03:58 [error] [exception.CException] exception 'CException' with message 'Property "CUploadedFile.filename" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(81): CComponent->__get('filename')
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/create
+---
+2014/05/12 11:04:40 [error] [exception.CException] exception 'CException' with message 'Property "CUploadedFile.filename" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(81): CComponent->__get('filename')
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/create
+---
+2014/05/12 11:04:48 [error] [exception.CException] exception 'CException' with message 'Property "CUploadedFile.id" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(81): CComponent->__get('id')
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/create
+---
+2014/05/12 11:05:11 [error] [exception.CException] exception 'CException' with message 'Property "CUploadedFile._name" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(81): CComponent->__get('_name')
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/create
+---
+2014/05/12 11:11:49 [error] [exception.CException] exception 'CException' with message 'Property "CUploadedFile.filename" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(81): CComponent->__get('filename')
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/create
+---
+2014/05/12 11:15:42 [error] [exception.CException] exception 'CException' with message 'Property "CUploadedFile.filename" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(82): CComponent->__get('filename')
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/create
+---
+2014/05/12 11:15:53 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php:82)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (82)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 11:16:01 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php:82)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (82)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 11:16:24 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php:81)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (81)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 11:31:34 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php:81)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (81)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 11:32:17 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php:81)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (81)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 11:32:42 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php:81)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (81)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 11:35:14 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php:81)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (81)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 11:36:31 [error] [php] Undefined variable: pic (D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php:83)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PhotoController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PhotoController->filterAccessControl()
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): PhotoController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PhotoController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php (83)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/12 11:37:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php:175
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(57): PhotoController->loadModel('')
+#1 [internal function]: PhotoController->actionView('')
+#2 D:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PhotoController), Array)
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PhotoController), Object(ReflectionMethod), Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/vie...')
+#14 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/view&id=
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/create
+---
+2014/05/12 11:40:11 [error] [exception.CException] exception 'CException' with message 'Property "CUploadedFile.filename" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\admin\PhotoController.php(83): CComponent->__get('filename')
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PhotoController->actionCreate()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/photo/cre...')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/test/index.php?r=admin/photo/create
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/photo/create
+---
+2014/05/19 11:56:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=admin
+---
+2014/05/20 04:51:08 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.users' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `Users`.
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/20 05:02:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "app/GetFriendByUid/uid/25".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/GetFriendBy...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=app/GetFriendByUid/uid/25
+---
+2014/05/20 05:03:06 [error] [exception.CDbException] exception 'CDbException' with message 'Relation "friend" is not defined in active record class "User".' in D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php:226
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(296): CActiveFinder->buildJoinTree(Object(CJoinElement), 'friend')
+#1 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(909): CActiveFinder->__construct(Object(User), Array)
+#3 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1355): CActiveRecord->getActiveFinder(Array)
+#4 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1519): CActiveRecord->query(Object(CDbCriteria))
+#5 D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php(44): CActiveRecord->findByAttributes(Array)
+#6 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionGetFriendByUid()
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('GetFriendByUid')
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/users/GetFr...')
+#12 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/test/index.php?r=app/users/GetFriendByUid/uid/25
+---
+2014/05/20 05:04:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.fuid' in 'on clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`type` AS `t0_c1`, `t`.`username` AS `t0_c2`, `t`.`realname` AS `t0_c3`, `t`.`phone` AS `t0_c4`, `t`.`photo` AS `t0_c5`, `t`.`sex` AS `t0_c6`, `t`.`description` AS `t0_c7`, `t`.`job_title_id` AS `t0_c8`, `t`.`brand_id` AS `t0_c9`, `t`.`clinic_id` AS `t0_c10`, `t`.`factory_id` AS `t0_c11`, `t`.`identify` AS `t0_c12`, `t`.`create_at` AS `t0_c13`, `t`.`update_at` AS `t0_c14`, `friends`.`id` AS `t1_c0`, `friends`.`uid` AS `t1_c1`, `friends`.`fuid` AS `t1_c2`, `friends`.`status` AS `t1_c3`, `friends`.`create_at` AS `t1_c4`, `user`.`id` AS `t2_c0`, `user`.`type` AS `t2_c1`, `user`.`username` AS `t2_c2`, `user`.`realname` AS `t2_c3`, `user`.`phone` AS `t2_c4`, `user`.`photo` AS `t2_c5`, `user`.`sex` AS `t2_c6`, `user`.`description` AS `t2_c7`, `user`.`job_title_id` AS `t2_c8`, `user`.`brand_id` AS `t2_c9`, `user`.`clinic_id` AS `t2_c10`, `user`.`factory_id` AS `t2_c11`, `user`.`identify` AS `t2_c12`, `user`.`create_at` AS `t2_c13`, `user`.`update_at` AS `t2_c14` FROM `user` `t`  LEFT OUTER JOIN `friends` `friends` ON (`friends`.`uid`=`t`.`id`)  LEFT OUTER JOIN `user` `user` ON (`friends`.`id`=`user`.`fuid`)  WHERE (`t`.`id`=:yp0).
+in D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php (44)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/20 05:04:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.fuid' in 'on clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`type` AS `t0_c1`, `t`.`username` AS `t0_c2`, `t`.`realname` AS `t0_c3`, `t`.`phone` AS `t0_c4`, `t`.`photo` AS `t0_c5`, `t`.`sex` AS `t0_c6`, `t`.`description` AS `t0_c7`, `t`.`job_title_id` AS `t0_c8`, `t`.`brand_id` AS `t0_c9`, `t`.`clinic_id` AS `t0_c10`, `t`.`factory_id` AS `t0_c11`, `t`.`identify` AS `t0_c12`, `t`.`create_at` AS `t0_c13`, `t`.`update_at` AS `t0_c14`, `friends`.`id` AS `t1_c0`, `friends`.`uid` AS `t1_c1`, `friends`.`fuid` AS `t1_c2`, `friends`.`status` AS `t1_c3`, `friends`.`create_at` AS `t1_c4`, `user`.`id` AS `t2_c0`, `user`.`type` AS `t2_c1`, `user`.`username` AS `t2_c2`, `user`.`realname` AS `t2_c3`, `user`.`phone` AS `t2_c4`, `user`.`photo` AS `t2_c5`, `user`.`sex` AS `t2_c6`, `user`.`description` AS `t2_c7`, `user`.`job_title_id` AS `t2_c8`, `user`.`brand_id` AS `t2_c9`, `user`.`clinic_id` AS `t2_c10`, `user`.`factory_id` AS `t2_c11`, `user`.`identify` AS `t2_c12`, `user`.`create_at` AS `t2_c13`, `user`.`update_at` AS `t2_c14` FROM `user` `t`  LEFT OUTER JOIN `friends` `friends` ON (`friends`.`uid`=`t`.`id`)  LEFT OUTER JOIN `user` `user` ON (`friends`.`id`=`user`.`fuid`)  WHERE (`t`.`id`=:yp0)' in D:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(803): CDbCommand->queryAll()
+#2 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1356): CActiveFinder->query(Object(CDbCriteria), false)
+#5 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1519): CActiveRecord->query(Object(CDbCriteria))
+#6 D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php(44): CActiveRecord->findByAttributes(Array)
+#7 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionGetFriendByUid()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('GetFriendByUid')
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('app/users/GetFr...')
+#13 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/test/index.php?r=app/users/GetFriendByUid/uid/25
+---
+2014/05/20 08:00:12 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php:48)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(286): UsersController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UsersController->run()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=app/users/GetFriendByUid/uid/25
+in D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php (48)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/20 08:00:16 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php:48)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(286): UsersController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UsersController->run()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=app/users/GetFriendByUid/uid/25
+in D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php (48)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/20 08:00:31 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php:49)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(286): UsersController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UsersController->run()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=app/users/GetFriendByUid/uid/25
+in D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php (49)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/20 08:00:35 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php:49)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(286): UsersController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UsersController->run()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=app/users/GetFriendByUid/uid/25
+in D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php (49)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/20 08:00:51 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php:49)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(286): UsersController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UsersController->run()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=app/users/GetFriendByUid/uid/25
+in D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php (49)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/20 08:07:15 [error] [php] include(JSONHelper.php): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php(53): spl_autoload_call()
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionGetFriendByUid()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(286): UsersController->runAction()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#5 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UsersController->run()
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=app/users/GetFriendByUid/uid/25
+in D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php (53)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/20 08:42:46 [error] [php] include(JSONHelper.php): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php(53): spl_autoload_call()
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionGetFriendByUid()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(286): UsersController->runAction()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#5 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UsersController->run()
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=app/users/GetFriendByUid/uid/25
+in D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php (53)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/20 08:42:49 [error] [php] include(JSONHelper.php): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php(53): spl_autoload_call()
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionGetFriendByUid()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(286): UsersController->runAction()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#5 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UsersController->run()
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=app/users/GetFriendByUid/uid/25
+in D:\xampp\htdocs\yii\test\protected\controllers\app\UsersController.php (53)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/20 12:07:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "upload".' in D:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('upload')
+#1 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('upload')
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/upload')
+#3 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/test/index.php?r=site/upload&PHPSESSID=&YII_CSRF_TOKEN=eb90ebdae906fda61305bf240f3bb7cf5bfced59&qqfile=111.jpg
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/videoupload
+---
+2014/05/20 12:07:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "upload".' in D:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('upload')
+#1 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('upload')
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/upload')
+#3 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/test/index.php?r=site/upload&PHPSESSID=&YII_CSRF_TOKEN=eb90ebdae906fda61305bf240f3bb7cf5bfced59&qqfile=Never+Had+A+Dream+Come+True+%E8%8B%B1%E6%96%87%E5%AD%97%E5%B9%95--%E9%9F%B3%E6%82%A6Tai.mp4
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/videoupload
+---
+2014/05/20 12:08:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "upload".' in D:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('upload')
+#1 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('upload')
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/upload')
+#3 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/test/index.php?r=site/upload&PHPSESSID=&YII_CSRF_TOKEN=eb90ebdae906fda61305bf240f3bb7cf5bfced59&qqfile=Never+Had+A+Dream+Come+True+%E8%8B%B1%E6%96%87%E5%AD%97%E5%B9%95--%E9%9F%B3%E6%82%A6Tai.mp4
+---
+2014/05/20 12:10:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "upload".' in D:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('upload')
+#1 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('upload')
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/upload')
+#3 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/test/index.php?r=site/upload&PHPSESSID=&YII_CSRF_TOKEN=eb90ebdae906fda61305bf240f3bb7cf5bfced59&qqfile=QQ%E5%9B%BE%E7%89%8720140520111639.jpg
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/videoupload
+---
+2014/05/20 12:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "videoUpload/upload".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('videoUpload/upl...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=videoUpload/upload&PHPSESSID=&YII_CSRF_TOKEN=eb90ebdae906fda61305bf240f3bb7cf5bfced59&qqfile=QQ%E5%9B%BE%E7%89%8720140520111639.jpg
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/videoupload
+---
+2014/05/20 12:15:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "videoUpload/upload".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('videoUpload/upl...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=videoUpload/upload&PHPSESSID=&YII_CSRF_TOKEN=eb90ebdae906fda61305bf240f3bb7cf5bfced59&qqfile=QQ%E5%9B%BE%E7%89%8720140520111639.jpg
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/videoupload
+---
+2014/05/20 12:19:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "videoUpload/upload".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('videoUpload/upl...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=videoUpload/upload&PHPSESSID=&YII_CSRF_TOKEN=eb90ebdae906fda61305bf240f3bb7cf5bfced59&qqfile=Never+Had+A+Dream+Come+True+%E8%8B%B1%E6%96%87%E5%AD%97%E5%B9%95--%E9%9F%B3%E6%82%A6Tai.mp4
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/videoupload
+---
+2014/05/20 12:20:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "videoUpload/upload".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('videoUpload/upl...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=videoUpload/upload&PHPSESSID=&YII_CSRF_TOKEN=eb90ebdae906fda61305bf240f3bb7cf5bfced59&qqfile=111.jpg
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/videoupload
+---
+2014/05/20 12:21:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "videoUpload/upload".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('videoUpload/upl...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=videoUpload/upload&PHPSESSID=&YII_CSRF_TOKEN=eb90ebdae906fda61305bf240f3bb7cf5bfced59&qqfile=Never+Had+A+Dream+Come+True+%E8%8B%B1%E6%96%87%E5%AD%97%E5%B9%95--%E9%9F%B3%E6%82%A6Tai.mp4
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/videoupload
+---
+2014/05/20 12:22:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "videoUpload/upload".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('videoUpload/upl...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=videoUpload/upload&PHPSESSID=&YII_CSRF_TOKEN=eb90ebdae906fda61305bf240f3bb7cf5bfced59&qqfile=%E6%82%A3%E8%80%85%E7%AE%A1%E7%90%86.fw.png
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/videoupload
+---
+2014/05/20 12:22:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "videoUpload/upload".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('videoUpload/upl...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=videoUpload/upload&PHPSESSID=&YII_CSRF_TOKEN=eb90ebdae906fda61305bf240f3bb7cf5bfced59&qqfile=%E5%8D%81%E4%BA%94%E4%B8%AA%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6%E4%B8%8E%E6%80%BB%E7%BB%93%E3%80%81%E7%9B%AE%E5%BD%95%2B%E7%B4%A2%E5%BC%95%EF%BC%88by_.zip
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/videoupload
+---
+2014/05/20 12:35:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "videoUpload/upload".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('videoUpload/upl...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=videoUpload/upload&PHPSESSID=&YII_CSRF_TOKEN=eb90ebdae906fda61305bf240f3bb7cf5bfced59&qqfile=Never+Had+A+Dream+Come+True+%E8%8B%B1%E6%96%87%E5%AD%97%E5%B9%95--%E9%9F%B3%E6%82%A6Tai.mp4
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/videoupload
+---
+2014/05/20 12:36:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "videoUpload/upload".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('videoUpload/upl...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=videoUpload/upload&PHPSESSID=&YII_CSRF_TOKEN=eb90ebdae906fda61305bf240f3bb7cf5bfced59&qqfile=QQ%E5%9B%BE%E7%89%8720140520111639.jpg
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/videoupload
+---
+2014/05/20 12:36:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "videoUpload/upload".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('videoUpload/upl...')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=videoUpload/upload&PHPSESSID=&YII_CSRF_TOKEN=eb90ebdae906fda61305bf240f3bb7cf5bfced59&qqfile=Never+Had+A+Dream+Come+True+%E8%8B%B1%E6%96%87%E5%AD%97%E5%B9%95--%E9%9F%B3%E6%82%A6Tai.mp4
+HTTP_REFERER=http://localhost/yii/test/index.php?r=admin/videoupload
+---
+2014/05/25 11:38:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/test/index.php?r=admin
+---
+2014/05/25 11:49:21 [error] [exception.CException] exception 'CException' with message 'Property "Pictures.url" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('url', '/yii/testimage/...')
+#1 D:\xampp\htdocs\yii\framework\base\CModel.php(607): CActiveRecord->__set('url', '/yii/testimage/...')
+#2 D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php(13): CModel->offsetSet('url', '/yii/testimage/...')
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): VideoListController->actionIndex()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('videolist')
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/test/index.php?r=videolist
+---
+2014/05/25 11:55:25 [error] [php] Undefined variable: item (D:\xampp\htdocs\yii\test\protected\views\videoList\index.php:12)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(869): VideoListController->renderFile()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(782): VideoListController->renderPartial()
+#2 D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php(15): VideoListController->render()
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): VideoListController->actionIndex()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=videolist
+in D:\xampp\htdocs\yii\test\protected\views\videoList\index.php (12)
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (15)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/25 11:55:50 [error] [php] Undefined variable: item (D:\xampp\htdocs\yii\test\protected\views\videoList\index.php:12)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(869): VideoListController->renderFile()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(782): VideoListController->renderPartial()
+#2 D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php(15): VideoListController->render()
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): VideoListController->actionIndex()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=videolist
+in D:\xampp\htdocs\yii\test\protected\views\videoList\index.php (12)
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (15)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/25 11:56:15 [error] [php] Undefined variable: item (D:\xampp\htdocs\yii\test\protected\views\videoList\index.php:12)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(869): VideoListController->renderFile()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(782): VideoListController->renderPartial()
+#2 D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php(15): VideoListController->render()
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): VideoListController->actionIndex()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=videolist
+in D:\xampp\htdocs\yii\test\protected\views\videoList\index.php (12)
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (15)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/26 04:09:42 [error] [php] getimagesize(/yii/test/images/upload/1_111223100400_6.jpg): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php:15)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#4 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=videolist
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (15)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/26 04:11:37 [error] [php] getimagesize(/yii/test/images/upload/.1_111223100400_6.jpg): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php:15)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#4 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=videolist
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (15)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/26 04:12:32 [error] [php] getimagesize(/yii/test/images/upload/1_111223100400_6.jpg): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php:15)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#4 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=videolist
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (15)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/26 04:15:50 [error] [php] getimagesize(/yii/test/images/upload/1_111223100400_6.jpg): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php:15)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#4 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=videolist
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (15)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/05/26 04:17:39 [error] [php] getimagesize(/yii/test/images/upload/6027-0.gif): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php:15)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#4 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=videolist
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (15)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/06/16 09:22:23 [error] [php] getimagesize(/yii/test/images/upload/6027-0.gif): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php:15)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#4 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=VideoList/index
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (15)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/06/16 09:30:39 [error] [php] getimagesize(/yii/test/images/upload/.6027-0.gif): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php:15)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#4 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=VideoList/index
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (15)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/06/16 09:35:22 [error] [php] getimagesize(/yii/test/images/upload/.1_111223100400_6.jpg): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php:15)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#4 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=VideoList/index
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (15)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/06/16 09:36:13 [error] [exception.CException] exception 'CException' with message 'Property "CHttpRequest.basePath" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php(10): CComponent->__get('basePath')
+#1 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): VideoListController->actionIndex()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('VideoList/index')
+#7 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\yii\test\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/test/index.php?r=VideoList/index
+---
+2014/06/16 09:37:45 [error] [php] getimagesize(D:\xampp\htdocs\yii\test\protected../images/upload/.1_111223100400_6.jpg): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php:15)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#4 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=VideoList/index
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (15)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/06/16 09:38:00 [error] [php] getimagesize(D:\xampp\htdocs\yii\test\protected/../images/upload/.1_111223100400_6.jpg): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php:15)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#4 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=VideoList/index
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (15)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/06/16 09:39:49 [error] [php] getimagesize(/yii/test./images/upload/1_111223100400_6.jpg): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php:15)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#4 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=VideoList/index
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (15)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/06/16 09:41:21 [error] [php] Array to string conversion (D:\xampp\htdocs\yii\test\protected\views\videoList\index.php:18)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(869): VideoListController->renderFile()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(782): VideoListController->renderPartial()
+#2 D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php(19): VideoListController->render()
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): VideoListController->actionIndex()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=VideoList/index
+in D:\xampp\htdocs\yii\test\protected\views\videoList\index.php (18)
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (19)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/06/16 09:44:32 [error] [php] Array to string conversion (D:\xampp\htdocs\yii\test\protected\views\videoList\index.php:20)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(869): VideoListController->renderFile()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(782): VideoListController->renderPartial()
+#2 D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php(19): VideoListController->render()
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): VideoListController->actionIndex()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=VideoList/index
+in D:\xampp\htdocs\yii\test\protected\views\videoList\index.php (20)
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (19)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/06/16 09:47:52 [error] [php] Undefined index: width (D:\xampp\htdocs\yii\test\protected\views\videoList\index.php:20)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(869): VideoListController->renderFile()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(782): VideoListController->renderPartial()
+#2 D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php(19): VideoListController->render()
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): VideoListController->actionIndex()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=VideoList/index
+in D:\xampp\htdocs\yii\test\protected\views\videoList\index.php (20)
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (19)
+in D:\xampp\htdocs\yii\test\index.php (13)
+2014/06/16 11:10:46 [error] [php] getimagesize(/yii/test/images/upload/1_111223100400_6.jpg): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php:15)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(286): VideoListController->runAction()
+#2 D:\xampp\htdocs\yii\framework\web\CController.php(265): VideoListController->runActionWithFilters()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): VideoListController->run()
+#4 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\yii\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/test/index.php?r=VideoList/index
+in D:\xampp\htdocs\yii\test\protected\controllers\VideoListController.php (15)
+in D:\xampp\htdocs\yii\test\index.php (13)
